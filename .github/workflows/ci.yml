@@ -1,13 +1,12 @@
-
-name: End-to-end tests - arquivo de continuos integration
+name: End-to-end tests 🧪
 on: [push]
 jobs:
-     cypress-run:
-      runs-on: ubuntu-20.04
-     steps:
+  cypress-run:
+    runs-on: ubuntu-20.04
+    steps:
       - name: Checkout
         uses: actions/checkout@v2
-        #install NPM dependencies, cache them correctly
-        #and run all Cypress tests
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
       - name: Cypress run
-        uses: cypress-io/github-actions@v2
+        uses: cypress-io/github-action@v2
