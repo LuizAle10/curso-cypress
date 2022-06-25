@@ -1,5 +1,5 @@
 # Curso de automação com cypress
 
-## Testes
-Web
-Api
+# Testes
+### Web
+### Api
