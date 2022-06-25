@@ -1,2 +1,5 @@
-# testes-cypress
-Curso de automação com cypress
+# Curso de automação com cypress
+
+##Testes
+Web
+Api
